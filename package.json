@@ -1,0 +1,16 @@
+{
+  "name": "jsmodule",
+  "version": "1.0.0",
+  "description": "try to achieve all kinds of js Moudles",
+  "main": "index.js",
+  "scripts": {
+    "prettier-watch": "onchange '**/**/*.js' -- prettier --write {{changed}}",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "So",
+  "license": "ISC",
+  "devDependencies": {
+    "onchange": "^3.3.0",
+    "prettier": "1.12.0"
+  }
+}
