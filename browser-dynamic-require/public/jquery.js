@@ -1,7 +1,7 @@
 /**
  * Created by So on 2018/4/14.
  */
-requireRemote('jquery',
+requireJsonp('jquery',
   function(module, exports, require) {
   "use strict";
   ///////////////////////////////////////////////////////
